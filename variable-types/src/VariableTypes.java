@@ -15,11 +15,11 @@ public class VariableTypes {
 
         short shortNumber2 = (short) normalNumber;
 
-        int numero = 5;
+        int number = 5;
 
-        numero = 10;
+        number = 10;
 
-        System.out.println(numero);
+        System.out.println(number);
 
         // variable name in uppercase to determine that the value does not change
         final double VALUE_PI = 3.14;
