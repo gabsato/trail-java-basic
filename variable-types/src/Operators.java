@@ -1,10 +1,14 @@
 public class Operators {
 
     public static void main(String[] args) {
-        boolean variable = true;
+        int a, b;
 
-        variable = !variable;
+        a = 6;
+        b = 6;
 
-        System.out.println(variable);
+        String result = a == b ? "true" : "false";
+
+        System.out.println(result);
+
     }
 }
