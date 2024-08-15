@@ -1,6 +1,10 @@
 public class Operators {
 
     public static void main(String[] args) {
-        String concatenation = "?";
+        boolean variable = true;
+
+        variable = !variable;
+
+        System.out.println(variable);
     }
 }
