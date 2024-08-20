@@ -1,13 +1,27 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 public class AboutMe {
     public static void main(String[] args) {
-        // the args initialize with 0
-        String name = args[0];
-        String lastName = args[1];
-        int age = Integer.valueOf(args[2]); // Wrappers
-        double height = Double.valueOf(args[3]);
+        // creating object scanner
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Hello, my name is " + name + " " + lastName);
-        System.out.println("I am " + age + " years old");
-        System.out.println("My height is " + height + "cm");
+        System.out.println("Enter your name");
+        String name = scanner.next();
+
+        System.out.println("Enter your last name");
+        String lastName = scanner.next();
+
+        System.out.println("Enter your age");
+        int age = scanner.nextInt();
+
+        System.out.println("Enter your height");
+        double height = scanner.nextDouble();
+
+        // imprimindo os dados obtidos pelo usuario
+        System.out.println("Hello, I'm " + name + " " + lastName);
+        System.out.println("I'm " + age + " years old ");
+        System.out.println("My height is " + height + "cm ");
+
     }
 }

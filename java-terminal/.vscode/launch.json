@@ -16,6 +16,12 @@
             "request": "launch",
             "mainClass": "AboutMe",
             "projectName": "java-terminal_c310b246",
+            "args": [
+                "Veigar",
+                "Sobrenome",
+                "20",
+                "1.73"
+            ]
         },
         {
             "type": "java",
