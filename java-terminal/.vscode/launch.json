@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sla",
+            "request": "launch",
+            "mainClass": "sla",
+            "projectName": "java-terminal_c310b246"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
